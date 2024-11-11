@@ -29,19 +29,42 @@ Key Components
 
 1. Neural Network Implementation
 ---
-
-
-The network is implemented in the neural_net.py file. Key components include:
-
-Layers: Input, hidden, and output layers.
-Activation Functions:
-ReLU: For hidden layers.
-Softmax: For the output layer.
-Loss Function: Categorical Cross-Entropy.
-Optimization: Gradient Descent.
+The network is implemented in the neural_net.py file. 
+Key components include:
+  Layers: Input, hidden, and output layers.
+  Activation Functions:
+    ReLU: For hidden layers.
+    Softmax: For the output layer.
+    Loss Function: Categorical Cross-Entropy.
+  Optimization: Gradient Descent.
 
 2. Data Preprocessing
 ---
-
 Normalization: Scale pixel values to the range [0, 1].
 One-hot Encoding: Transform labels into one-hot vectors for classification.
+
+Results
+---
+
+Achieved an accuracy of ~95% on the MNIST test dataset.
+Training and evaluation time depends on hardware but is typically efficient on most modern CPUs.
+
+Future Work
+---
+
+Experiment with different architectures (e.g., adding more hidden layers or neurons).
+Implement advanced optimization techniques (e.g., Adam or RMSprop).
+Extend to other datasets like CIFAR-10 or Fashion MNIST.
+
+Contributing
+---
+Contributions are welcome! If you find any bugs or want to improve the project, feel free to open an issue or submit a pull request.
+
+License
+---
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Acknowledgments
+---
+MNIST Database by Yann LeCun for the dataset.
+Inspiration from fundamental machine learning courses and books.
