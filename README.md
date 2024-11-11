@@ -1,6 +1,33 @@
 Digit Recognizer Using Neural Network (From Scratch)
 ---
 
+# Digit Recognizer Using Neural Network (From Scratch)
+
+This project implements a neural network from scratch to recognize handwritten digits from the **MNIST dataset**. It avoids using pre-built libraries for the neural network, focusing on understanding the fundamental principles of machine learning.
+
+## Features
+- Manual implementation of forward propagation, backpropagation, and gradient descent.
+- Trains a feedforward neural network for classifying digits (0-9).
+- Uses the MNIST dataset for training and testing.
+
+## Dataset
+The MNIST dataset consists of:
+- 60,000 training images.
+- 10,000 testing images.
+Each image is a 28x28 grayscale picture of a digit.
+
+## Key Components
+- **Input Layer**: 784 nodes (28x28 pixels flattened).
+- **Hidden Layers**: Customizable number of neurons and activation functions.
+- **Output Layer**: 10 nodes (one for each digit).
+- **Activation Function**: ReLU and softmax.
+
+## How to Run
+1. Clone this repository.
+   ```bash
+   git clone https://github.com/your-username/digit-recognizer.git
+   cd digit-recognizer
+
 Overview
 ---
 
