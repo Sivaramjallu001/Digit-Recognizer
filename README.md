@@ -1,6 +1,3 @@
-Digit Recognizer Using Neural Network (From Scratch)
----
-
 # Digit Recognizer Using Neural Network (From Scratch)
 
 This project implements a neural network from scratch to recognize handwritten digits from the **MNIST dataset**. It avoids using pre-built libraries for the neural network, focusing on understanding the fundamental principles of machine learning.
